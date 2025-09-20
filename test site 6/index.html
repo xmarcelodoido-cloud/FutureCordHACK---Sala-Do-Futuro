@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala do Futuro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>FutureCord</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#scripts" class="nav-link">Scripts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contribua" class="nav-link">Contribua</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://discord.gg/pr9Zm6qw" class="nav-link discord-link" target="_blank">
+                        <i class="fab fa-discord"></i> Discord
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                      <span class="highlight">Sala do Futuro</span>
+                </h1>
+                <p class="hero-subtitle">Feito por estudantes para estudantes</p>
+                <h2 class="hero-description">
+                    Melhores Scripts, <br>
+                    <span class="highlight">Sala do Futuro</span>, <br>
+                    E Agora uma Comunidade
+                </h2>
+                <p class="hero-text">
+                    Explore nossos scripts exclusivos para otimizar sua experiência na Sala do Futuro 
+                    e entre na comunidade aberta do Discord, com jogos, torneios, interações e muita resenha!
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://discord.gg/pr9Zm6qw" class="btn btn-primary" target="_blank">
+                        <i class="fab fa-discord"></i>
+                        Entrar na nova comunidade!
+                    </a>
+                    <a href="#scripts" class="btn btn-secondary">
+                        Ver Scripts
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Scripts Avançados</h3>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Comunidade Ativa</h3>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Desempenho Otimizado</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts Section -->
+    <section id="scripts" class="scripts">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">⚡Scripts Disponíveis</span>
+                <h2 class="section-title">
+                    Ferramentas Inteligentes para <br>
+                    <span class="highlight">Maximizar Seu Desempenho</span>
+                </h2>
+                <p class="section-description">
+                    Nossa site está cheio de recursos automatizados desenvolvidos com tecnologia de ponta 
+                    para revolucionar sua experiência de aprendizado na Sala do Futuro
+                </p>
+            </div>
+            
+            <div class="scripts-grid">
+                <div class="script-card empty-state">
+                    <a href="https://taskitos.cupiditys.lol/?cmsphacks.xyz" class="btn btn-primary" target="_blank">
+                        <i class="fa-solid fa-code"></i></i>
+                        Taskitos
+                    </a>
+                    <a href="https://matific.cupiditys.lol/dashboard?cmsphacks.xyz" class="btn btn-primary" target="_blank">
+                        <i class="fa-solid fa-code"></i></i>
+                        Matific
+                    </a>
+                    <a href="https://leia.cmsphacks.xyz/?cmsphacks.xyz" class="btn btn-primary" target="_blank">
+                        <i class="fa-solid fa-code"></i></i>
+                        LeiaSP
+                    </a>
+                    <a href="https://redacao.cmsphacks.xyz/?cmsphacks.xyz" class="btn btn-primary" target="_blank">
+                        <i class="fa-solid fa-code"></i></i>
+                        Redação
+                    </a>
+                    <a href="https://speakify.cupiditys.lol/?cmsphacks.xyz" class="btn btn-primary" target="_blank">
+                        <i class="fa-solid fa-code"></i></i>
+                        Speak
+                    </a>
+                    <a href="https://apostilas-cmsp.vercel.app/?cmsphacks.xyz" class="btn btn-primary" target="_blank">
+                        <i class="fa-solid fa-code"></i></i>
+                        Apostilas
+                    </a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contribua" class="contact">
+        <div class="container">
+            <div class="contact-header">
+                <h2 class="section-title">
+                    <span class="highlight">Contribua</span>
+                </h2>
+                <h3>Envie sua Sugestão ou Mensagem</h3>
+                <p>Tem uma ideia para um novo script ou melhoria? Compartilhe conosco!</p>
+            </div>
+            
+            <form class="contact-form" id="suggestionForm">
+                <div class="form-group">
+                    <label for="nome">Nome*</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="sugestao">Sugestão*</label>
+                    <textarea id="sugestao" name="sugestao" rows="6" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i>
+                    Enviar Sugestão
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>FutureCordHacks</h3>
+                    <p>Feito por estudantes para estudantes</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#scripts">Scripts</a>
+                    <a href="#contribua">Contribua</a>
+                    <a href="https://discord.gg/pr9Zm6qw" target="_blank">Discord</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 © FutureCordHacks. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
